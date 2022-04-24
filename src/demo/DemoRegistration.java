@@ -13,8 +13,11 @@ public class DemoRegistration {
 		 
         driver.get("http://demo.automationtesting.in/Register.html");
         
+        driver.manage().window().maximize();
+        
         System.out.println(driver.getTitle());
         driver.quit();
+        
 
 	}
 
